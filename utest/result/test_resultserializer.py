@@ -12,9 +12,6 @@ from robot.utils.asserts import assert_equal
 
 class StreamXmlWriter(XmlWriter):
 
-    def _create_output(self, output):
-        return output
-
     def close(self):
         pass
 

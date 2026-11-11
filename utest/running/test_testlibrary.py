@@ -6,8 +6,7 @@ from datetime import timedelta
 from pathlib import Path
 
 from classes import (
-    __file__ as classes_source, ArgInfoLibrary, DocLibrary, GetattrLibrary, NameLibrary,
-    SynonymLibrary
+    __file__ as classes_source, ArgInfoLibrary, DocLibrary, NameLibrary
 )
 
 from robot.errors import DataError
